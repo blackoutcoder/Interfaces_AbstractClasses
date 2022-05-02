@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Practice2\**" />
+    <Compile Remove="Practice\**" />
+    <EmbeddedResource Remove="Practice2\**" />
+    <EmbeddedResource Remove="Practice\**" />
+    <None Remove="Practice2\**" />
+    <None Remove="Practice\**" />
+  </ItemGroup>
+
+</Project>
